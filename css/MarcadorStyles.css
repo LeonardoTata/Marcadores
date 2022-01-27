@@ -4,7 +4,7 @@ body{
     align-items: center;
     height: 100vh;
     font-family: 'Merriweather', serif;
-    background-color: rgb(34, 130, 185);
+    background-color: #EEEEEE;
 }
 
 .contenedor{
@@ -12,15 +12,23 @@ body{
     width: 300px;
     height: 420px;
     margin: 50px;
-    color: white;
+    color: #fffc39;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 68px;
-    background: #2282b9;
-    box-shadow:  32px 32px 63px #196089,
-                -32px -32px 63px #2ba4e9;
+    border-radius: 42px;
+    background: #541212;
+    -webkit-box-shadow: 3px 3px 16px 0px rgba(48, 50, 50, 0.82);
+    -moz-box-shadow:    3px 3px 16px 0px rgba(48, 50, 50, 0.82);
+    box-shadow:         3px 3px 16px 0px rgba(48, 50, 50, 0.82);
+}
 
+.nombres{
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .contar{
@@ -41,13 +49,13 @@ button{
     height: 25px;
     cursor: pointer;
     font-size: 1,5rem;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
 }
 
 span{
-    color: rgb(34, 130, 185);
+    color: rgb(0, 0, 0);
 }
 
 .reset{
